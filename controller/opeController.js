@@ -1,5 +1,5 @@
 async function add(req, res){
-    res.render("usuario/list.ejs", req.body);
+    res.render("usuario/add.ejs", req.body);
 }
 
 async function abreAdd(req, res){
